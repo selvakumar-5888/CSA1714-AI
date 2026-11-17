@@ -1,0 +1,86 @@
+/*
+   Disease-based diet suggestion program
+   Run with SWI-Prolog: swipl -q -s diet_suggestion.pl
+   Then query: ?- start.
+
+   Educational example only. It does not diagnose disease or provide an
+   individualized medical nutrition plan. Discuss diet changes with a doctor
+   or registered dietitian, especially for kidney disease, pregnancy, children,
+   medication use, or multiple conditions.
+
+   General guidance references:
+   - Diabetes: https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes
+   - High blood pressure (DASH): https://www.nhlbi.nih.gov/health/dash-eating-plan
+   - Chronic kidney disease: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease
+   - Celiac disease: https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition
+*/
+
+start :-
+    nl,
+    writeln('=== Disease-Based Diet Suggestion System ==='),
+    writeln('Choose a condition:'),
+    writeln('  1. Diabetes'),
+    writeln('  2. High blood pressure'),
+    writeln('  3. Chronic kidney disease (CKD)'),
+    writeln('  4. Celiac disease'),
+    writeln('  0. Exit'),
+    write('Enter a number: '),
+    read_line_to_string(user_input, Input),
+    handle_choice(Input).
+
+handle_choice("0") :-
+    writeln('Goodbye. Take care!').
+handle_choice("1") :-
+    show_suggestion(diabetes).
+handle_choice("2") :-
+    show_suggestion(high_blood_pressure).
+handle_choice("3") :-
+    show_suggestion(chronic_kidney_disease).
+handle_choice("4") :-
+    show_suggestion(celiac_disease).
+handle_choice(_) :-
+    writeln('Please enter one of the listed numbers.'),
+    start.
+
+show_suggestion(Condition) :-
+    disease_name(Condition, Name),
+    format('~nGeneral suggestions for ~w:~n', [Name]),
+    forall(diet_tip(Condition, Tip), format('  - ~w~n', [Tip])),
+    format('~nImportant: ~w~n', [general_caution]),
+    nl,
+    start.
+
+disease_name(diabetes, 'diabetes').
+disease_name(high_blood_pressure, 'high blood pressure').
+disease_name(chronic_kidney_disease, 'chronic kidney disease (CKD)').
+disease_name(celiac_disease, 'celiac disease').
+
+diet_tip(diabetes,
+        'Build meals around non-starchy vegetables, fruit, whole grains, and suitable protein foods.').
+diet_tip(diabetes,
+        'Choose water or other drinks with little or no added sugar; limit sugary drinks and sweets.').
+diet_tip(diabetes,
+        'Meal timing and carbohydrate amounts may need to fit your medicines and glucose plan; ask your care team or dietitian.').
+
+diet_tip(high_blood_pressure,
+        'Consider the DASH pattern: vegetables, fruit, whole grains, beans, nuts, and low-fat dairy if suitable.').
+diet_tip(high_blood_pressure,
+        'Choose lower-sodium foods and limit highly salted and heavily processed foods.').
+diet_tip(high_blood_pressure,
+        'Limit foods high in saturated fat and sugary drinks or sweets.').
+
+diet_tip(chronic_kidney_disease,
+        'Work with your clinician or renal dietitian: needs vary by kidney function, lab results, medicines, and dialysis status.').
+diet_tip(chronic_kidney_disease,
+        'Ask whether you need to adjust sodium, potassium, phosphorus, protein, or fluid; do not restrict these on your own.').
+diet_tip(chronic_kidney_disease,
+        'Avoid using generic kidney-food lists without professional advice, because suitable foods differ from person to person.').
+
+diet_tip(celiac_disease,
+        'After diagnosis, follow a strict gluten-free diet for life and check labels and cross-contact precautions.').
+diet_tip(celiac_disease,
+        'Naturally gluten-free choices can include rice, potatoes, fruits, vegetables, beans, eggs, and unbreaded meat.').
+diet_tip(celiac_disease,
+        'If you suspect celiac disease but have not been tested, speak with a doctor before removing gluten, since testing may be affected.').
+
+general_caution('These are general educational ideas, not a diagnosis or personal treatment plan. Ask a qualified health professional before making major diet changes.').
