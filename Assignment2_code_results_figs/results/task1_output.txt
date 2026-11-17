@@ -1,0 +1,27 @@
+A: Open (5% obstacles)     n=20   ucs    exp=  371 gen=  372 maxF=  23 cost=  38 opt=  38 optimal=True t=1.1ms
+A: Open (5% obstacles)     n=20   gbfs   exp=   40 gen=   79 maxF=  39 cost=  40 opt=  38 optimal=False t=0.1ms
+A: Open (5% obstacles)     n=20   astar  exp=   43 gen=   84 maxF=  38 cost=  38 opt=  38 optimal=True t=0.1ms
+A: Open (5% obstacles)     n=40   ucs    exp= 1519 gen= 1520 maxF=  41 cost=  78 opt=  78 optimal=True t=4.2ms
+A: Open (5% obstacles)     n=40   gbfs   exp=   78 gen=  166 maxF=  88 cost=  78 opt=  78 optimal=True t=0.4ms
+A: Open (5% obstacles)     n=40   astar  exp=   78 gen=  166 maxF=  88 cost=  78 opt=  78 optimal=True t=0.3ms
+A: Open (5% obstacles)     n=60   ucs    exp= 3435 gen= 3436 maxF=  64 cost= 118 opt= 118 optimal=True t=10.1ms
+A: Open (5% obstacles)     n=60   gbfs   exp=  124 gen=  279 maxF= 155 cost= 124 opt= 118 optimal=False t=0.5ms
+A: Open (5% obstacles)     n=60   astar  exp=  246 gen=  495 maxF= 149 cost= 118 opt= 118 optimal=True t=1.2ms
+B: Maze-like (loops)       n=21   ucs    exp=  181 gen=  185 maxF=   7 cost=  96 opt=  96 optimal=True t=0.4ms
+B: Maze-like (loops)       n=21   gbfs   exp=  114 gen=  124 maxF=  10 cost=  96 opt=  96 optimal=True t=0.3ms
+B: Maze-like (loops)       n=21   astar  exp=  114 gen=  124 maxF=  10 cost=  96 opt=  96 optimal=True t=0.2ms
+B: Maze-like (loops)       n=41   ucs    exp=  826 gen=  827 maxF=  18 cost= 176 opt= 176 optimal=True t=1.9ms
+B: Maze-like (loops)       n=41   gbfs   exp=  520 gen=  543 maxF=  23 cost= 200 opt= 176 optimal=False t=1.4ms
+B: Maze-like (loops)       n=41   astar  exp=  808 gen=  837 maxF=  34 cost= 176 opt= 176 optimal=True t=2.6ms
+B: Maze-like (loops)       n=61   ucs    exp= 1854 gen= 1860 maxF=  25 cost= 160 opt= 160 optimal=True t=4.5ms
+B: Maze-like (loops)       n=61   gbfs   exp=  529 gen=  549 maxF=  20 cost= 272 opt= 160 optimal=False t=1.4ms
+B: Maze-like (loops)       n=61   astar  exp= 1309 gen= 1372 maxF=  37 cost= 160 opt= 160 optimal=True t=3.8ms
+C: Decoy corridor (edge case) n=21   ucs    exp=  254 gen=  263 maxF=  16 cost=  28 opt=  28 optimal=True t=0.7ms
+C: Decoy corridor (edge case) n=21   gbfs   exp=   68 gen=   98 maxF=  30 cost=  28 opt=  28 optimal=True t=0.2ms
+C: Decoy corridor (edge case) n=21   astar  exp=   96 gen=  127 maxF=  31 cost=  28 opt=  28 optimal=True t=0.3ms
+C: Decoy corridor (edge case) n=41   ucs    exp=  972 gen=  989 maxF=  28 cost=  58 opt=  58 optimal=True t=2.6ms
+C: Decoy corridor (edge case) n=41   gbfs   exp=  206 gen=  270 maxF=  64 cost=  58 opt=  58 optimal=True t=0.6ms
+C: Decoy corridor (edge case) n=41   astar  exp=  360 gen=  425 maxF=  65 cost=  58 opt=  58 optimal=True t=1.0ms
+C: Decoy corridor (edge case) n=61   ucs    exp= 2154 gen= 2179 maxF=  41 cost=  88 opt=  88 optimal=True t=5.9ms
+C: Decoy corridor (edge case) n=61   gbfs   exp=  430 gen=  528 maxF=  98 cost=  88 opt=  88 optimal=True t=1.8ms
+C: Decoy corridor (edge case) n=61   astar  exp=  782 gen=  881 maxF=  99 cost=  88 opt=  88 optimal=True t=2.5ms

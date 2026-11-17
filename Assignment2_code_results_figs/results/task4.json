@@ -1,0 +1,232 @@
+{
+ "growth": [
+  {
+   "board": "3x3 k=3",
+   "d": 1,
+   "m": 9,
+   "expanded": 1,
+   "evals": 9,
+   "time_s": 4.8082000000171377e-05,
+   "theory_expanded": 1,
+   "theory_leaves": 9,
+   "const_b_leaves": 9
+  },
+  {
+   "board": "3x3 k=3",
+   "d": 2,
+   "m": 9,
+   "expanded": 10,
+   "evals": 72,
+   "time_s": 0.0002916040000000564,
+   "theory_expanded": 10,
+   "theory_leaves": 72,
+   "const_b_leaves": 81
+  },
+  {
+   "board": "3x3 k=3",
+   "d": 3,
+   "m": 9,
+   "expanded": 82,
+   "evals": 504,
+   "time_s": 0.0018197970000000119,
+   "theory_expanded": 82,
+   "theory_leaves": 504,
+   "const_b_leaves": 729
+  },
+  {
+   "board": "3x3 k=3",
+   "d": 4,
+   "m": 9,
+   "expanded": 586,
+   "evals": 3024,
+   "time_s": 0.012278650999999918,
+   "theory_expanded": 586,
+   "theory_leaves": 3024,
+   "const_b_leaves": 6561
+  },
+  {
+   "board": "3x3 k=3",
+   "d": 5,
+   "m": 9,
+   "expanded": 3610,
+   "evals": 15120,
+   "time_s": 0.057070683000000066,
+   "theory_expanded": 3610,
+   "theory_leaves": 15120,
+   "const_b_leaves": 59049
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 1,
+   "m": 16,
+   "expanded": 1,
+   "evals": 16,
+   "time_s": 6.50449999999303e-05,
+   "theory_expanded": 1,
+   "theory_leaves": 16,
+   "const_b_leaves": 16
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 2,
+   "m": 16,
+   "expanded": 17,
+   "evals": 240,
+   "time_s": 0.0009438219999999831,
+   "theory_expanded": 17,
+   "theory_leaves": 240,
+   "const_b_leaves": 256
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 3,
+   "m": 16,
+   "expanded": 257,
+   "evals": 3360,
+   "time_s": 0.013551926999999964,
+   "theory_expanded": 257,
+   "theory_leaves": 3360,
+   "const_b_leaves": 4096
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 4,
+   "m": 16,
+   "expanded": 3617,
+   "evals": 43680,
+   "time_s": 0.19558848100000015,
+   "theory_expanded": 3617,
+   "theory_leaves": 43680,
+   "const_b_leaves": 65536
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 5,
+   "m": 16,
+   "expanded": 47297,
+   "evals": 524160,
+   "time_s": 2.4355238410000006,
+   "theory_expanded": 47297,
+   "theory_leaves": 524160,
+   "const_b_leaves": 1048576
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 1,
+   "m": 25,
+   "expanded": 1,
+   "evals": 25,
+   "time_s": 0.00017261200000007193,
+   "theory_expanded": 1,
+   "theory_leaves": 25,
+   "const_b_leaves": 25
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 2,
+   "m": 25,
+   "expanded": 26,
+   "evals": 600,
+   "time_s": 0.004266946999999632,
+   "theory_expanded": 26,
+   "theory_leaves": 600,
+   "const_b_leaves": 625
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 3,
+   "m": 25,
+   "expanded": 626,
+   "evals": 13800,
+   "time_s": 0.10202666100000002,
+   "theory_expanded": 626,
+   "theory_leaves": 13800,
+   "const_b_leaves": 15625
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 4,
+   "m": 25,
+   "expanded": 14426,
+   "evals": 303600,
+   "time_s": 2.550521992,
+   "theory_expanded": 14426,
+   "theory_leaves": 303600,
+   "const_b_leaves": 390625
+  }
+ ],
+ "winrate": [
+  {
+   "board": "3x3 k=3",
+   "d": 1,
+   "wins": 18,
+   "draws": 1,
+   "losses": 1,
+   "win_rate": 0.9
+  },
+  {
+   "board": "3x3 k=3",
+   "d": 2,
+   "wins": 19,
+   "draws": 1,
+   "losses": 0,
+   "win_rate": 0.95
+  },
+  {
+   "board": "3x3 k=3",
+   "d": 4,
+   "wins": 17,
+   "draws": 3,
+   "losses": 0,
+   "win_rate": 0.85
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 1,
+   "wins": 19,
+   "draws": 1,
+   "losses": 0,
+   "win_rate": 0.95
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 2,
+   "wins": 15,
+   "draws": 5,
+   "losses": 0,
+   "win_rate": 0.75
+  },
+  {
+   "board": "4x4 k=4",
+   "d": 3,
+   "wins": 19,
+   "draws": 1,
+   "losses": 0,
+   "win_rate": 0.95
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 1,
+   "wins": 20,
+   "draws": 0,
+   "losses": 0,
+   "win_rate": 1.0
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 2,
+   "wins": 20,
+   "draws": 0,
+   "losses": 0,
+   "win_rate": 1.0
+  },
+  {
+   "board": "5x5 k=4",
+   "d": 3,
+   "wins": 20,
+   "draws": 0,
+   "losses": 0,
+   "win_rate": 1.0
+  }
+ ]
+}

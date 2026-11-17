@@ -1,0 +1,112 @@
+{
+ "predictions": {
+  "b": 4,
+  "d": 6,
+  "best_nodes": 268,
+  "best_leaves": 127,
+  "worst_nodes": 5461,
+  "worst_leaves": 4096,
+  "random_leaves": 512
+ },
+ "results": [
+  {
+   "tree": "T1 best-ordered (many cutoffs)",
+   "minimax_nodes": 5461,
+   "ab_nodes": 268,
+   "ab_leaves": 127,
+   "cutoffs": 99,
+   "saving": 0.9509247390587805
+  },
+  {
+   "tree": "T2 engineered worst case (no cutoffs)",
+   "minimax_nodes": 5461,
+   "ab_nodes": 5461,
+   "ab_leaves": 4096,
+   "cutoffs": 0,
+   "saving": 0.0
+  },
+  {
+   "tree": "T2b locally worst-ordered (random leaves)",
+   "minimax_nodes": 5461,
+   "ab_nodes": 4570,
+   "ab_leaves": 3348,
+   "cutoffs": 689,
+   "saving": 0.1631569309650247
+  },
+  {
+   "tree": "T3 random order (30 trees, mean)",
+   "minimax_nodes": 5461,
+   "ab_nodes": 1429.8333333333333,
+   "ab_leaves": 921.7333333333333,
+   "cutoffs": 315.76666666666665,
+   "saving": 0.7381737166575109
+  },
+  {
+   "tree": "T4 all leaves equal",
+   "minimax_nodes": 5461,
+   "ab_nodes": 268,
+   "ab_leaves": 127,
+   "cutoffs": 99,
+   "saving": 0.9509247390587805
+  }
+ ],
+ "growth": [
+  {
+   "d": 4,
+   "full": 341,
+   "pred_best_nodes": 62,
+   "best_nodes": 62,
+   "best_cutoffs": 21,
+   "worst_nodes": 341,
+   "worst_cutoffs": 0,
+   "random_nodes": 148,
+   "random_cutoffs": 27
+  },
+  {
+   "d": 6,
+   "full": 5461,
+   "pred_best_nodes": 268,
+   "best_nodes": 268,
+   "best_cutoffs": 99,
+   "worst_nodes": 5461,
+   "worst_cutoffs": 0,
+   "random_nodes": 1666,
+   "random_cutoffs": 359
+  },
+  {
+   "d": 8,
+   "full": 87381,
+   "pred_best_nodes": 1098,
+   "best_nodes": 1098,
+   "best_cutoffs": 417,
+   "worst_nodes": 87381,
+   "worst_cutoffs": 0,
+   "random_nodes": 9314,
+   "random_cutoffs": 2239
+  },
+  {
+   "b": 2,
+   "full": 127,
+   "pred_best_nodes": 44,
+   "best_nodes": 44,
+   "worst_nodes": 127,
+   "random_nodes": 100
+  },
+  {
+   "b": 3,
+   "full": 1093,
+   "pred_best_nodes": 125,
+   "best_nodes": 125,
+   "worst_nodes": 1093,
+   "random_nodes": 385
+  },
+  {
+   "b": 5,
+   "full": 19531,
+   "pred_best_nodes": 491,
+   "best_nodes": 491,
+   "worst_nodes": 19531,
+   "random_nodes": 4416
+  }
+ ]
+}

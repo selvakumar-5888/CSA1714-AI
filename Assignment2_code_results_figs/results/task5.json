@@ -1,0 +1,276 @@
+{
+ "A": {
+  "final": [
+   [
+    0
+   ],
+   [
+    1
+   ],
+   [
+    0
+   ],
+   [
+    1
+   ],
+   [
+    0
+   ],
+   [
+    1
+   ],
+   [
+    0
+   ],
+   [
+    1
+   ]
+  ],
+  "stats": {
+   "nodes": 0,
+   "backtracks": 0,
+   "checks": 25,
+   "wipeouts": 0
+  },
+  "trace": [
+   [
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  ]
+ },
+ "A2": {
+  "consistent": false,
+  "stats": {
+   "nodes": 0,
+   "backtracks": 0,
+   "checks": 22,
+   "wipeouts": 1
+  }
+ },
+ "B": [
+  {
+   "n": 5,
+   "BT_status": "no solution",
+   "BT_nodes": 260,
+   "BT_backtracks": 65,
+   "BT_checks": 556,
+   "BT_wipeouts": 0,
+   "MAC_status": "no solution",
+   "MAC_nodes": 40,
+   "MAC_backtracks": 17,
+   "MAC_checks": 944,
+   "MAC_wipeouts": 24
+  },
+  {
+   "n": 6,
+   "BT_status": "no solution",
+   "BT_nodes": 1630,
+   "BT_backtracks": 326,
+   "BT_checks": 4405,
+   "BT_wipeouts": 0,
+   "MAC_status": "no solution",
+   "MAC_nodes": 205,
+   "MAC_backtracks": 86,
+   "MAC_checks": 5605,
+   "MAC_wipeouts": 120
+  },
+  {
+   "n": 7,
+   "BT_status": "no solution",
+   "BT_nodes": 11742,
+   "BT_backtracks": 1957,
+   "BT_checks": 38166,
+   "BT_wipeouts": 0,
+   "MAC_status": "no solution",
+   "MAC_nodes": 1236,
+   "MAC_backtracks": 517,
+   "MAC_checks": 37800,
+   "MAC_wipeouts": 720
+  },
+  {
+   "n": 8,
+   "BT_status": "no solution",
+   "BT_nodes": 95900,
+   "BT_backtracks": 13700,
+   "BT_checks": 363055,
+   "BT_wipeouts": 0,
+   "MAC_status": "no solution",
+   "MAC_nodes": 8659,
+   "MAC_backtracks": 3620,
+   "MAC_checks": 291305,
+   "MAC_wipeouts": 5040
+  },
+  {
+   "n": 9,
+   "BT_status": "node limit",
+   "BT_nodes": 300013,
+   "BT_backtracks": 37498,
+   "BT_checks": 1293803,
+   "BT_wipeouts": 0,
+   "MAC_status": "no solution",
+   "MAC_nodes": 69280,
+   "MAC_backtracks": 28961,
+   "MAC_checks": 2539360,
+   "MAC_wipeouts": 40320
+  }
+ ],
+ "S": [
+  {
+   "n": 10,
+   "BT_nodes": 83.3,
+   "BT_backtracks": 23.7,
+   "BT_checks": 143.7,
+   "BT_wipeouts": 0,
+   "BT_limit_hits": 0,
+   "BT_unsat": 4,
+   "MAC_nodes": 11.4,
+   "MAC_backtracks": 2.2,
+   "MAC_checks": 444.8,
+   "MAC_wipeouts": 3.6,
+   "MAC_limit_hits": 0,
+   "MAC_unsat": 4
+  },
+  {
+   "n": 15,
+   "BT_nodes": 165.5,
+   "BT_backtracks": 50.3,
+   "BT_checks": 295.8,
+   "BT_wipeouts": 0,
+   "BT_limit_hits": 0,
+   "BT_unsat": 5,
+   "MAC_nodes": 14.1,
+   "MAC_backtracks": 2.7,
+   "MAC_checks": 696.4,
+   "MAC_wipeouts": 4.4,
+   "MAC_limit_hits": 0,
+   "MAC_unsat": 5
+  },
+  {
+   "n": 20,
+   "BT_nodes": 521.3,
+   "BT_backtracks": 168.6,
+   "BT_checks": 963.4,
+   "BT_wipeouts": 0,
+   "BT_limit_hits": 0,
+   "BT_unsat": 6,
+   "MAC_nodes": 17.9,
+   "MAC_backtracks": 3.9,
+   "MAC_checks": 1057.1,
+   "MAC_wipeouts": 6.6,
+   "MAC_limit_hits": 0,
+   "MAC_unsat": 6
+  },
+  {
+   "n": 25,
+   "BT_nodes": 707.7,
+   "BT_backtracks": 227.9,
+   "BT_checks": 1322.2,
+   "BT_wipeouts": 0,
+   "BT_limit_hits": 0,
+   "BT_unsat": 5,
+   "MAC_nodes": 21.7,
+   "MAC_backtracks": 4.1,
+   "MAC_checks": 1311.9,
+   "MAC_wipeouts": 5.6,
+   "MAC_limit_hits": 0,
+   "MAC_unsat": 5
+  },
+  {
+   "n": 30,
+   "BT_nodes": 1685,
+   "BT_backtracks": 547.8,
+   "BT_checks": 3200.2,
+   "BT_wipeouts": 0,
+   "BT_limit_hits": 0,
+   "BT_unsat": 3,
+   "MAC_nodes": 25.7,
+   "MAC_backtracks": 1.8,
+   "MAC_checks": 1475.1,
+   "MAC_wipeouts": 3.2,
+   "MAC_limit_hits": 0,
+   "MAC_unsat": 3
+  },
+  {
+   "n": 35,
+   "BT_nodes": 9564.7,
+   "BT_backtracks": 3177.3,
+   "BT_checks": 17902.5,
+   "BT_wipeouts": 0,
+   "BT_limit_hits": 0,
+   "BT_unsat": 5,
+   "MAC_nodes": 32.2,
+   "MAC_backtracks": 6.2,
+   "MAC_checks": 2251.3,
+   "MAC_wipeouts": 9,
+   "MAC_limit_hits": 0,
+   "MAC_unsat": 5
+  }
+ ]
+}

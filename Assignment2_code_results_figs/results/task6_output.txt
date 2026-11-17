@@ -1,0 +1,19 @@
+Correctness: exhaustive=6.156363  analytic perimeter=6.156363  itertools brute force=6.156363 tours=40320
+Unit square: best = 4.0 tour = [0, 1, 2, 3] tours = 6
+{'n': 5, 'predicted': 24, 'counted': 24, 'time_s': 2.425899999991543e-05, 'us_per_tour': 1.010791666663143}
+{'n': 6, 'predicted': 120, 'counted': 120, 'time_s': 8.246800000222265e-05, 'us_per_tour': 0.6872333333518554}
+{'n': 7, 'predicted': 720, 'counted': 720, 'time_s': 0.0004952900000034788, 'us_per_tour': 0.6879027777826094}
+{'n': 8, 'predicted': 5040, 'counted': 5040, 'time_s': 0.003607780999999477, 'us_per_tour': 0.7158295634919597}
+{'n': 9, 'predicted': 40320, 'counted': 40320, 'time_s': 0.030440584000004378, 'us_per_tour': 0.7549748015874101}
+{'n': 10, 'predicted': 362880, 'counted': 362880, 'time_s': 0.302017302000003, 'us_per_tour': 0.8322787202381035}
+{'n': 11, 'predicted': 3628800, 'counted': 3628800, 'time_s': 2.87528588, 'us_per_tour': 0.7923517085537918}
+{'n': 8, 'restarts': 1, 'runs': 60, 'mean_gap': 0.798203026741665, 'max_gap': 8.70677597909474, 'optimum_hit_rate': 0.5833333333333334, 'mean_time_ms': 0.014849749999730951}
+{'n': 8, 'restarts': 10, 'runs': 60, 'mean_gap': 0.11281121970842002, 'max_gap': 2.256224394168282, 'optimum_hit_rate': 0.95, 'mean_time_ms': 0.12547333333354044}
+{'n': 9, 'restarts': 1, 'runs': 60, 'mean_gap': 0.2889344147024623, 'max_gap': 1.0197685224792787, 'optimum_hit_rate': 0.7166666666666667, 'mean_time_ms': 0.022229433333483446}
+{'n': 9, 'restarts': 10, 'runs': 60, 'mean_gap': 0.0, 'max_gap': 0.0, 'optimum_hit_rate': 1.0, 'mean_time_ms': 0.22222445000015986}
+{'n': 10, 'restarts': 1, 'runs': 60, 'mean_gap': 0.9996073943562682, 'max_gap': 13.044045765350894, 'optimum_hit_rate': 0.8666666666666667, 'mean_time_ms': 0.0229221999993238}
+{'n': 10, 'restarts': 10, 'runs': 60, 'mean_gap': 5.143936723239648e-15, 'max_gap': 1.5431810169718942e-14, 'optimum_hit_rate': 1.0, 'mean_time_ms': 0.20356666666666948}
+{'n': 15, 'length': 3.288930899097462, 'time_s': 0.0005893549999953507, 'exhaustive_tours': 87178291200}
+{'n': 20, 'length': 3.8412510635739867, 'time_s': 0.0009893709999957423, 'exhaustive_tours': 121645100408832000}
+{'n': 50, 'length': 6.214386467690771, 'time_s': 0.006444498999996995, 'exhaustive_tours': 608281864034267560872252163321295376887552831379210240000000000}
+{'n': 100, 'length': 8.232662693482123, 'time_s': 0.030519026000000338, 'exhaustive_tours': 933262154439441526816992388562667004907159682643816214685929638952175999932299156089414639761565182862536979208272237582511852109168640000000000000000000000}

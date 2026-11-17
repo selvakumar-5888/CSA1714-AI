@@ -1,0 +1,15 @@
+PREDICTIONS (b=4, d=6) - computed before any experiment
+  best-ordered   : nodes = 268, leaves = 127  (Knuth-Moore b^ceil(d/2)+b^floor(d/2)-1 = 127)
+  worst-ordered  : nodes = 5461, leaves = 4096, cutoffs = 0
+  random order   : leaves ~ b^(3d/4) = 512 (range between best 127 and worst 4096)
+T1 best-ordered (many cutoffs)       minimax nodes=5461  AB nodes=268.0 leaves=127.0 cutoffs=99.0  saved=95.1%
+T2 engineered worst case (no cutoffs) minimax nodes=5461  AB nodes=5461.0 leaves=4096.0 cutoffs=0.0  saved=0.0%
+T2b locally worst-ordered (random leaves) minimax nodes=5461  AB nodes=4570.0 leaves=3348.0 cutoffs=689.0  saved=16.3%
+T3 random order (30 trees, mean)     minimax nodes=5461  AB nodes=1429.8 leaves=921.7 cutoffs=315.8  saved=73.8%
+T4 all leaves equal                  minimax nodes=5461  AB nodes=268.0 leaves=127.0 cutoffs=99.0  saved=95.1%
+growth {'d': 4, 'full': 341, 'pred_best_nodes': 62, 'best_nodes': 62, 'best_cutoffs': 21, 'worst_nodes': 341, 'worst_cutoffs': 0, 'random_nodes': 148, 'random_cutoffs': 27}
+growth {'d': 6, 'full': 5461, 'pred_best_nodes': 268, 'best_nodes': 268, 'best_cutoffs': 99, 'worst_nodes': 5461, 'worst_cutoffs': 0, 'random_nodes': 1666, 'random_cutoffs': 359}
+growth {'d': 8, 'full': 87381, 'pred_best_nodes': 1098, 'best_nodes': 1098, 'best_cutoffs': 417, 'worst_nodes': 87381, 'worst_cutoffs': 0, 'random_nodes': 9314, 'random_cutoffs': 2239}
+growth-b {'b': 2, 'full': 127, 'pred_best_nodes': 44, 'best_nodes': 44, 'worst_nodes': 127, 'random_nodes': 100}
+growth-b {'b': 3, 'full': 1093, 'pred_best_nodes': 125, 'best_nodes': 125, 'worst_nodes': 1093, 'random_nodes': 385}
+growth-b {'b': 5, 'full': 19531, 'pred_best_nodes': 491, 'best_nodes': 491, 'worst_nodes': 19531, 'random_nodes': 4416}
